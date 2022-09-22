@@ -5,18 +5,18 @@ Results
 
 RandomOverSampler
 -------
-*The RandomOverSampler model resulted in classifying 51,366 records each as high risk and low risk.
+* The RandomOverSampler model resulted in classifying 51,366 records each as high risk and low risk.
 
 <img width="311" alt="image" src="https://user-images.githubusercontent.com/106127571/191397739-1c27e1a2-81fa-4ea7-9156-f4568528b211.png">
 
-*Balanced accuracy score: 65%
+* Balanced accuracy score: 65%
 
 <img width="307" alt="image" src="https://user-images.githubusercontent.com/106127571/191397959-d0018fae-cc98-4904-8c4e-1b4d92dbbf0f.png">
 
 
 
-*The high risk precision rate is 1% with recall at 71%.
-*The low risk precision rate is 100% and recall at 60%.
+* The high risk precision rate is 1% with recall at 71%.
+* The low risk precision rate is 100% and recall at 60%.
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/106127571/191398477-2442fde1-6141-469a-807e-6d53175133f7.png">
 
@@ -82,19 +82,30 @@ Ensemble Classifiers
 BalancedRandomForestClassifier Model
 -------
 
-* The balanced accuracy score inresaed to 79% for this model.
 * The high risk precision rate increased to 3% with the recall at 70%.
-* Low risk has a precision rate of 100% with the recall at 89%.
+* Low risk has a precision rate of 100% with the recall at 87%.
+
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/106127571/191644818-336bd8c2-9994-47bd-98ff-86fc529f8f96.png">
+
+
+
+
+EasyEnsembleClassifier Model
+---------
+
+* The balanced accuracy score is 93% with this model.
+
+<img width="174" alt="image" src="https://user-images.githubusercontent.com/106127571/191644992-05e3b027-25b9-498e-bc76-1a22a8dd3faf.png">
+
+
+* The high risk precision rate increased to 9% with the recall at 92%.
+* Low risk has precision rate at 100% with the recall at 94%.
+
+<img width="546" alt="image" src="https://user-images.githubusercontent.com/106127571/191644943-2a2db9c9-b3b0-4390-a06b-38bfa34ebe67.png">
+
 
 
 Summary
 -------
 
 The EasyEnsembleClassifier model had the best results with accuracy rate of 93% and 9% prescion rate when predicting high risk candidates. The results for predicting was highest at 94%. This is the best model for this type of analysis.
-
-EasyEnsembleClassifier Model
----------
-
-* The balanced accuracy score is 93% with this model.
-* The high risk precision rate increased to 9% with the recall at 92%.
-* Low risk has precision rate at 100% with the recall at 94%.
