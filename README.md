@@ -1,4 +1,4 @@
-# Cryptocurrencies
+
 
 Results
 -----------
